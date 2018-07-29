@@ -1,7 +1,7 @@
 # jonbulica\android-ci
 
 You can define additional libraries to be imported by adding them to the 
-`packages.txt``file. *Note:* the NDK is included by default.
+`packages.txt`file. **Note:** the NDK is included by default.
 
 ## Implementation
 ### GitLab
