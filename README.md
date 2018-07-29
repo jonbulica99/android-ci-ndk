@@ -1,4 +1,4 @@
-# jonbulica/android-ci
+# jonbulica/android-ci-ndk
 
 ### Continous Integration (CI) for Android apps on GitLab
 An image for building Android apps with support for multiple SDK Build Tools. 
@@ -11,7 +11,7 @@ You can define additional packages by adding them to the `packages.txt` file.
 ## Sample Implementation
 ### GitLab (`.gitlab-ci.yml`)
 ```yml
-image: jonbulica/android-ci:latest
+image: jonbulica/android-ci-ndk:latest
 
 before_script:
     - export GRADLE_USER_HOME=`pwd`/.gradle
