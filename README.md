@@ -9,9 +9,7 @@ necessary for building Android apps in a CI tool. Based on
 You can define additional packages by adding them to the `packages.txt` file.
 
 ## Sample Implementation
-### GitLab
-*.gitlab-ci.yml*
-
+### GitLab (`.gitlab-ci.yml`)
 ```yml
 image: jonbulica/android-ci:latest
 
